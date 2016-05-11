@@ -1,0 +1,13 @@
+doctype html
+html(lang='ru')
+    include ../blocks/head/index
+
+    body
+        include ../blocks/nav/index
+
+        .container
+            block main
+
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='js/app.js')

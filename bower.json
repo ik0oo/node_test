@@ -1,0 +1,13 @@
+{
+  "name": "node_js_test",
+  "version": "0.0.0",
+  "authors": [
+    "DKichigin <dmitry.kichigin@firstlinesoftware.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

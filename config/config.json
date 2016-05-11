@@ -1,0 +1,18 @@
+{
+  "mongoose": {
+    "uri": "mongodb://127.0.0.1:27017/node_test_base",
+    "options": {}
+  },
+  "port": 4000,
+  "session": {
+    "secret": "secretKey",
+    "key": "sid",
+    "resave": false,
+    "saveUninitialized": true,
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
